@@ -1,0 +1,18 @@
+  
+  <form >
+        <div class="form-group">
+            <label for="messageout">New Message</label>
+            <input type="text" [ngModel]="messageout()" (ngModelChange)="messageout.set($event) "name="messageout" id="messageout" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <button (click)="send()" class="btn btn-primary">Chat</button> &nbsp;
+           
+        </div>
+        
+    </form>
+    <h3>Chat Messages</h3>
+    <ul >
+        @for(message of messagesin();track $index){
+            <li><span class="msgdate"> {{message.dt | date: 'shortDate' }}</span> - <span class="msg">{{message.msg}} </span> </li>
+                  }
+    </ul>

@@ -1,0 +1,16 @@
+ [
+    {"name": "VisionX Ultra HD 50" ,"price":649},
+    {"name": "NovaScreen OLED 55" ,"price":1299},
+    {"name":"CrystalView QLED 65" ,"price":1799},
+    {"name": "LumaTech Smart 43","price": 429},
+    {"name": "AeroVision Curved 75" ,"price":2499},
+    {"name": "Zenith Pro 4K 60","price":1099},
+    {"name": "BrightWave Mini 32" ,"price":249},
+    {"name": "StellarView QLED 85" ,"price":3299},
+    {"name": "ClearEdge HDR 48" ,"price":599},
+    {"name": "PulseScreen UltraSlim 70","price":2099},
+    {"name": "Optima LED 40" ,"price":379},
+    {"name": "HyperVision 8K 65" ,"price":3899},
+    {"name": "StreamMaster Smart 58","price":879},
+    {"name": "QuantumGlow 4K 77" ,"price":2899},
+    {"name": "Eclipse Black OLED 55","price":1499}]
